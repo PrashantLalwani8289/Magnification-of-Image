@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Magnification</title>
+</head>
+<body>
+    <img class="zoom" alt="A supperb image to zoom in" src="https://cdn.pixabay.com/photo/2016/01/12/19/16/painting-1136443_960_720.jpg
+" data-magnify-src="https://cdn.pixabay.com/photo/2016/01/12/19/16/painting-1136443_960_720.jpg"/>
+<div style="margin: 15px 15px; position: absolute; right: 0; top: 0;">
+
+  <span>Rotate:</span>
+  <input id="rotate" type="range" min="-180" max="180" value="0"/>
+  
+  <label>Zoom scale:</label>
+  <input id="zoom-scale" type="range" step="0.1"  min="1" max="4" value="1"/>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
